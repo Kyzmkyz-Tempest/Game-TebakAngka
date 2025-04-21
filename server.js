@@ -10,6 +10,11 @@ app.use((req, res) => {
   res.status(404).json({ status: "404", message: "Not Found" });
 });
 
+/*
 app.listen(8353, () => {
   console.log('Sistem Berjalan Di Port: 8353')
 })
+*/
+
+// Deploy di vercel
+module.exports = app;
