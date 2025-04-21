@@ -1,0 +1,98 @@
+* {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #87ceeb; /* warna langit biru */
+  background-image: url('https://files.catbox.moe/d1i6e3.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  text-align: left;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.inpt {
+  background: white;
+  color: black;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* From Uiverse.io by mobinkakei */ 
+.btn {
+  margin: 10px;
+  width: 100px;
+  height: 35px;
+  background: black;
+  color: #fff;
+  border-radius: 13px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+input, button {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2, p {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
+}
+
+@media (max-width: 600px) {
+  input, button {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+
+  
