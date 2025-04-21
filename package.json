@@ -3,7 +3,8 @@
   "description": "simple game",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node server.js",
+    "nodemon": "npm i -g nodemon && nodemon server.js"
   },
   "repository": {
     "type": "git",
